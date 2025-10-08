@@ -1,0 +1,34 @@
+{
+  "header": {
+    "cart": "Кошик"
+  },
+  "footer": {
+    "login": "Вхід",
+    "search": "Пошук",
+    "copyright": "Усі права захищено",
+    "terms_of_use": "Умови користування",
+    "privacy_policy": "Політика конфіденційності"
+  },
+  "a11y": {
+    "open_cart": "Відкрити кошик",
+    "open_menu": "Відкрити навігаційне меню",
+    "footer_nav": "Навігація у підвалі"
+  },
+  "teaser": {
+    "title": "Рекомендовані товари",
+    "empty": "У цій колекції поки немає товарів"
+  },
+  "products": {
+    "banner": {
+      "default_title": "Продукт",
+      "not_found": "Товар не знайдено",
+      "select_color": "Виберіть колір:",
+      "select_size": "Виберіть розмір:",
+      "available_with_count": "Доступно {{quantity}}",
+      "not_available": "Недоступно",
+      "no_color_option": "Колір відсутній",
+      "add_to_bag": "Додати до кошика",
+      "description": "Виділяйся у Nike Air Max Plus — кросівки з технологією Tuned Air для виняткової стабільності та неймовірного комфорту."
+    }
+  }
+}

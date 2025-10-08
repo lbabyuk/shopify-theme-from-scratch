@@ -1,0 +1,21 @@
+{% comment %}
+  Banner Product Add To Cart snippet
+  Usage:
+    {% render 'banner-product-add-to-cart', banner_product_item: banner_product_item %}
+{% endcomment %}
+
+{%- assign fallback_add_to_bag_text = 'Add To Bag' -%}
+{%- assign product_variant_id = banner_product_item.variants.first.id -%}
+
+{% form 'product', banner_product_item, class: 'add-to-cart-form', id: 'banner-add-to-cart' %}
+  <input type="hidden" name="id" value="{{ product_variant_id }}">
+  <input type="hidden" name="quantity" value="1">
+
+  <button
+    type="submit"
+    class="add-btn"
+    aria-label="{{ 'products.banner.add_to_bag' | t: default: fallback_add_to_bag_text | escape }}"
+  >
+    {{ 'products.banner.add_to_bag' | t: default: fallback_add_to_bag_text | escape }}
+  </button>
+{% endform %}

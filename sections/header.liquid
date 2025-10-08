@@ -1,0 +1,14 @@
+<header class="header" role="banner">
+  <div class="header-container container ">
+    <div class="header-left">
+      {% render 'logo' %}
+      <button class="burger-btn" aria-label="{{ 'a11y.open_menu' | t }}" type="button">
+        <span class="burger-icon">{{- 'burger-icon.svg' | inline_asset_content -}}</span>
+      </button>
+    </div>
+    {% render 'nav-main' %}
+    <a href="{{ routes.cart_url }}" class="cart-link" aria-label="{{ 'a11y.open_cart' | t }}">
+      <span class="cart-icon">{{- 'cart-icon.svg' | inline_asset_content -}}</span>
+    </a>
+  </div>
+</header>

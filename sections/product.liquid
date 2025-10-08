@@ -1,0 +1,16 @@
+{{ 'banner-product.css' | asset_url | stylesheet_tag }}
+
+{%- assign handle = handle | default: 'nike-air-max-plus' -%}
+{%- assign banner_product_item = all_products[handle] -%}
+
+{%- if banner_product_item == blank -%}
+  {% render 'banner-product-not-found' %}
+  {%- break -%}
+
+{%- else -%}
+  <section class="section-card" id="card-{{ banner_product_item.id }}">
+    <div class="container">
+      {% render 'banner-product', handle: 'nike-air-max-plus' %}
+    </div>
+  </section>
+{%- endif -%}
