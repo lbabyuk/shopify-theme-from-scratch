@@ -34,6 +34,6 @@ Create a working theme framework from scratch (OS 2.0) in Liquid:
 8. Created locales in locales/uk.defaulte.json;      
 
 ### Related links:
-[Asana note](https://app.asana.com/1/442123638460530/project/1211341031891215/task/1211341863851843?focus=true)
-[Theme preview](https://dawn-ob.myshopify.com/?preview_theme_id=187671773522)
+1. [Asana note](https://app.asana.com/1/442123638460530/project/1211341031891215/task/1211341863851843?focus=true)
+2. [Theme preview](https://dawn-ob.myshopify.com/?preview_theme_id=187671773522)
 **Password**:  debree1234
