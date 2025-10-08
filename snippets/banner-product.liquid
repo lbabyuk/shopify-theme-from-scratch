@@ -1,9 +1,9 @@
-{% comment %} 
+{% comment %}
   Banner product snippet
   Usage:
     {% render 'banner-product', handle: 'nike-air-max-plus' %}
     {% render 'banner-product', product: product %}
-{%- endcomment -%}
+{% endcomment %}
 
 {{ 'banner-product.css' | asset_url | stylesheet_tag }}
 
@@ -89,8 +89,4 @@
     </div>
   </div>
 </div>
-<script>
-  console.log({{ banner_product_item | json }})
-</script>
 <script src="{{ 'banner-product-script.js' | asset_url }}" defer></script>
-
